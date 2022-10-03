@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnQR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QR 코드 스캔"
+        />
+
+    <Button
+        android:id="@+id/btnCustomQR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="커스텀 QR 코드 스캔"
+        />
+
+    <TextView
+        android:id="@+id/txtQRCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="QR 코드 값"
+        />
+
+    <Button
+        android:id="@+id/btnQRCodeWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="QR 코드 생성"
+        />
+
+    <ImageView
+        android:id="@+id/imgQRCode"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
+        />
+
+</LinearLayout>
